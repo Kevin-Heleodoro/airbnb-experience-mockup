@@ -9,6 +9,90 @@ body {
   margin: 0;
 }
 
-.App {
+nav {
+  top: 0;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 3px 7.5px rgba(0, 0, 0, 0.1);
+}
+
+section {
+  padding: 20px;
+}
+
+.gray {
+  color: #918e9b
+}
+
+.nav-logo {
+  margin-left: 4vh;
+  height: 5vh;
+}
+
+.hero-main {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15vh;
+  margin-right: 15vh;
+  margin-top: 5vh;
+}
+
+.hero-photo-grid {
+  width: 100%;
+  justify-content: center;
+  align-self: center;
+}
+
+.hero-main > h1 {
+  font-weight: 600;
+  font-size: 6rem;
+}
+
+.hero-main > p {
+  font-weight: 300;
+  line-height: 110%;
+  font-size: 3rem;
+  width: 90vh;
+  margin-top: 0;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10vh;
+  max-width: 20%;
+  margin-bottom: 10%;
+}
+
+.card-photo {
+  border-radius: 10px;
+}
+
+.card-review {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0;
+  
+}
+
+.card-star {
+  width: fit-content;
+  height: fit-content;
+}
+
+.card > h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.card > p {
+  margin-top: 0;
+}
+
+.card-gallery {
   display: flex;
 }
